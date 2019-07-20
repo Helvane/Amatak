@@ -1,0 +1,23 @@
+<div class="row">
+  <div class="col-sm-6">
+
+  </div>
+
+</div>
+
+<a class="navbar-brand" href="/" routerLink="/">
+
+  <img class="logo" src="assets/logo.png" alt="logo"/>
+  <div class="col-sm-6">
+
+  </div>
+  Extruder Screens & Polymer Filters</a>
+<ul class="nav nav-tabs">
+  <li class="nav-item" ngFor="let m of menus; let k=index">
+    <a (click)="goto(k)"class="nav-link {{m.active}}">{{m.title}}</a>
+  </li>
+  <p>
+    Our screens are design screen and belt filters.
+  </p>
+</ul>
+<br/>

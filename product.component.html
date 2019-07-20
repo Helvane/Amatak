@@ -1,0 +1,49 @@
+<div class="panel panel-default">
+  <div class="panel-heading">
+    Xtrusion filter
+  </div>
+  <div class="panel-body">
+<p>
+  They come in packages
+</p>
+
+
+    <div class="row">
+    <div class="col-sm-2">
+      <label>package</label>
+      <select class="form-control">
+        <option *ngFor="let q of qty; let k=index" [value]="q">{{q}}</option>
+      </select>
+    </div>
+  </div>
+
+    <div class="row">
+      <div class="col-sm-2">
+        <label>package</label>
+        <select class="form-control">
+          <option *ngFor="let q of qty; let k=index" [value]="q">{{q}}</option>
+        </select>
+      </div>
+    </div>
+
+    <br/>
+    <div class="form-row">
+      <button class="btn btn-primary">
+        Add
+      </button>
+    </div>
+
+    <ul class="list-unstyled">
+      <li class="media">
+        <img src="/assets/extrusion.jpg" class="img-thumbnail" alt="Extrusion Filter"/>
+        <div class="media-body"></div>
+        <h5 class="mt-0 mb-1">Auto screen belts
+        - Reverse Dutch Weave belts slit to size with rubbed edges. All of our belts meet or exceed OEM requirements.
+        </h5>
+      </li>
+    </ul>
+
+  </div>
+</div>
+
+
